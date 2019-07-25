@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBalanceTester", "StringBalanceTester\StringBalanceTester.csproj", "{2C35711B-7356-4757-BA5F-9420B7855AB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxBracketCalc", "TaxBracketCalc\TaxBracketCalc.csproj", "{46E886DE-DEA9-4738-A6F6-ED39B4BCEC5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2C35711B-7356-4757-BA5F-9420B7855AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C35711B-7356-4757-BA5F-9420B7855AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C35711B-7356-4757-BA5F-9420B7855AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E886DE-DEA9-4738-A6F6-ED39B4BCEC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E886DE-DEA9-4738-A6F6-ED39B4BCEC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E886DE-DEA9-4738-A6F6-ED39B4BCEC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E886DE-DEA9-4738-A6F6-ED39B4BCEC5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
