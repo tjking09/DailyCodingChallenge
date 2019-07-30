@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleNumber", "SingleNumbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{693A65F6-EC5B-4ED7-BC6D-9EE6573ED481}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeros", "MoveZeros\MoveZeros.csproj", "{42F91EB4-0013-4E43-9CB8-4BA6FC7FFF45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{693A65F6-EC5B-4ED7-BC6D-9EE6573ED481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{693A65F6-EC5B-4ED7-BC6D-9EE6573ED481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{693A65F6-EC5B-4ED7-BC6D-9EE6573ED481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F91EB4-0013-4E43-9CB8-4BA6FC7FFF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F91EB4-0013-4E43-9CB8-4BA6FC7FFF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F91EB4-0013-4E43-9CB8-4BA6FC7FFF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F91EB4-0013-4E43-9CB8-4BA6FC7FFF45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
