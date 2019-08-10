@@ -15,7 +15,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            int n = 100;
+            int n = 150;
             int i = 1;
             int numberCheck = 0;
             while (i <= n)
