@@ -10,13 +10,18 @@ namespace CodeAssessment
     {
         static void Main(string[] args)
         {
+            int daysBack = 2;
+
             var instance = new CompanyClass();
 
-            Dictionary<string, string> CompanyDictionary = new Dictionary<string, string>();
+            Dictionary<string, string> CompanyDictionary = new Dictionary<string, string>
+            {
+                { "ESPN", "https://www.espn.com/espn/rss/news" },
+                { "Bill Simmons Podcast", "https://rss.art19.com/the-bill-simmons-podcast" },
+                { "Hacker News", "https://hnrss.org/newest" }
+            };
 
-            CompanyDictionary.Add("ESPN", "https://www.espn.com/espn/rss/news");
-
-            instance.FindInactiveCompanies(CompanyDictionary);
+            instance.FindInactiveCompanies(CompanyDictionary, daysBack);
 
             Console.ReadLine();
         }
